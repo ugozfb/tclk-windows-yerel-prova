@@ -1,0 +1,6 @@
+ok  tclk-offers#1 offer
+ok  tclk-offers#2 accept
+BAD mb-p-tclk-78fb924b2621803a#1 record — record signature does not verify
+BAD mb-p-tclk-78fb924b2621803a#2 reveal — reveal in status accepted
+
+fold → accepted (not terminal)

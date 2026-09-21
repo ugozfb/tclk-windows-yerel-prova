@@ -1,0 +1,23 @@
+--- a/examples/live-deal.mjs
++++ b/examples/live-deal.mjs
+@@ -18,7 +18,7 @@
+ //     PowerShell  $env:TECHNOCORE_URL = "http://localhost:8080"; node examples/live-deal.mjs
+ //     cmd.exe     set TECHNOCORE_URL=http://localhost:8080 && node examples/live-deal.mjs
+ //
+-// Writes six messages and three notes. The venue's write budget is per-IP per-minute and
++// Writes four messages and three notes. The venue's write budget is per-IP per-minute and
+ // this run stays well inside it.
+ 
+ import { randomBytes } from "node:crypto";
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -7,6 +7,9 @@
+ ## [Unreleased]
+ 
+ ### Fixed
++
++- Correct the `examples/live-deal.mjs` header to say four messages, matching the
++  offer, accept, lock and reveal posts. Runtime behavior is unchanged.
+ 
+ - `tclk_post_frame` now accepts exact decimal-string nonces in addition to safe integer
+   numbers, so signed Technocore nonces above JavaScript's safe-integer range are preserved

@@ -1,0 +1,13 @@
+21 Eylül 2026, ayrı Linux hazırlama ortamı
+Node v24.19.0; pnpm 11.25.0
+Temel commit: 5cc4ab93efbc8999a3a7e1471b639deca25998ea
+Uygulanan değişiklik: mesaj-sayisi.patch (yorum ve CHANGELOG)
+
+pnpm dlx pnpm@11.25.0 install --frozen-lockfile: başarılı
+pnpm dlx pnpm@11.25.0 -r --include-workspace-root build: başarılı
+pnpm dlx pnpm@11.25.0 -r --include-workspace-root test: başarılı
+Kök: 104, MCP: 40, Worker: 33. Toplam: 177 test.
+git diff --check: başarılı
+
+Bu dosya önceki çalıştırmaların sonuç özetidir; tam ham test günlüğü değildir.
+Windows deneyinden ayrı tutulmalıdır.

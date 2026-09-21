@@ -1,0 +1,21 @@
+Linux hazırlama ortamında resmî denetleyicinin yeniden çalıştırılması.
+
+Dosya: deal-78fb924b.jsonl
+ok  tclk-offers#1 offer
+ok  tclk-offers#2 accept
+ok  mb-p-tclk-78fb924b2621803a#1 lock
+ok  mb-p-tclk-78fb924b2621803a#2 reveal
+
+fold → claimed
+
+Çıkış kodu: 0
+
+Dosya: deal-78fb924b-bozuk.jsonl
+ok  tclk-offers#1 offer
+ok  tclk-offers#2 accept
+BAD mb-p-tclk-78fb924b2621803a#1 record — record signature does not verify
+BAD mb-p-tclk-78fb924b2621803a#2 reveal — reveal in status accepted
+
+fold → accepted (not terminal)
+
+Çıkış kodu: 1
