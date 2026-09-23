@@ -1,0 +1,10 @@
+PASS tclk-offers#1 offer: Ed25519 signature
+PASS tclk-offers#2 accept: Ed25519 signature
+PASS mb-p-tclk-78fb924b2621803a#1 lock: Ed25519 signature
+PASS mb-p-tclk-78fb924b2621803a#2 reveal: Ed25519 signature
+PASS mutated lock signature rejected (InvalidSignature)
+PASS unchanged reveal signature remains valid
+PASS original and mutated deal exports differ by exactly 1 byte
+
+This extra check was run on 21 September 2026 in the staging environment with Python cryptography.
+It only checks Ed25519 signatures; it does not replace the official tclk state auditor.

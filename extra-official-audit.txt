@@ -1,0 +1,21 @@
+Re-running the official auditor in the Linux staging environment.
+
+File: deal-78fb924b.jsonl
+ok  tclk-offers#1 offer
+ok  tclk-offers#2 accept
+ok  mb-p-tclk-78fb924b2621803a#1 lock
+ok  mb-p-tclk-78fb924b2621803a#2 reveal
+
+fold → claimed
+
+Exit code: 0
+
+File: deal-78fb924b-tampered.jsonl
+ok  tclk-offers#1 offer
+ok  tclk-offers#2 accept
+BAD mb-p-tclk-78fb924b2621803a#1 record — record signature does not verify
+BAD mb-p-tclk-78fb924b2621803a#2 reveal — reveal in status accepted
+
+fold → accepted (not terminal)
+
+Exit code: 1

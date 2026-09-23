@@ -1,0 +1,7 @@
+sha256(secret bytes) == accept.statement: PASS
+accept.ref == offer.id: PASS
+accept/lock/reveal same contract: PASS
+lock.ref == lock.contract: PASS
+SHA256: 0x4d99cf4115ca75d6ece38daa9c9c6bbc02e28539093fea97a854ea9a8e46643e
+Hex occurrence counts: {"0x78fb924b2621803a933010f1bc69c97acaa9de86356ebd75d23841fe47093c08": 4, "0x28479215c78542480acedcd395259b303269b834188b7f48e9f136f1e7de444b": 1}
+Local offer: asset=PAPER, rails=['paper']
